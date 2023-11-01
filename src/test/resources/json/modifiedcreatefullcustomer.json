@@ -1,0 +1,59 @@
+{
+  "brands": [
+    "ES"
+  ],
+  "customerAddress": {
+    "country": "GB",
+    "county": "Shires",
+    "houseName": "Bagends",
+    "houseNumber": "3",
+    "locality": "Small Shire Parts",
+    "postalTown": "Bigger Shire Towns",
+    "postcode": "39203",
+    "street": "Some streets",
+    "subPremises": "The Hills"
+  },
+  "customerBars": [],
+  "customerEmails": [
+    {
+      "email": "testing.email.jantest@gds.ey.com",
+      "emailConfirmed": true,
+      "id": null
+    }
+  ],
+  "customerEmployments": [
+    {
+      "employmentStatus": "F",
+      "primaryIndustry": "189",
+      "primaryOccupation": "A23",
+      "secondaryIndustry": "189",
+      "secondaryOccupation": "A24"
+    }
+  ],
+  "customerIndividualDetail": {
+    "carsInHousehold": "2",
+    "dateOfBirth": "2000-04-16",
+    "firstName": "JohnMod",
+    "gender": "F",
+    "lastName": "SmithMod",
+    "maritalStatus": "M",
+    "numberOfChildren": "1",
+    "residencyStatus": "H",
+    "title": "001"
+  },
+  "customerMarketingConsent": {
+    "email": true,
+    "phone": true,
+    "post": true,
+    "sms": true
+  },
+  "customerNumber": "",
+  "customerPhones": [
+    {
+      "countryCode": "GB",
+      "phoneConfirmed": true,
+      "phoneNumber": "07712345678",
+      "phoneType": "MOBILE"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "barType": "UW_BAR",
+  "category": "ON_SERV",
+  "reason": "MULTI_CHNG",
+  "description": "Some description",
+  "policyNumber": "P214124",
+  "removeReason": "Reason for removal is something",
+  "removeOther": "Other something"
+}

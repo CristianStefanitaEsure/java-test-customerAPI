@@ -1,0 +1,58 @@
+{
+  "brands": [
+    "ES"
+  ],
+  "customerAddress": {
+    "country": "GB",
+    "county": "Shire",
+    "houseName": "Bagend",
+    "houseNumber": "2",
+    "locality": "Small Shire Part",
+    "postalTown": "Bigger Shire Town",
+    "postcode": "39202",
+    "street": "Some street",
+    "subPremises": "The Hill"
+  },
+  "customerEmails": [
+    {
+      "email": "testing.email.jan@gds.ey.com",
+      "emailConfirmed": true
+    }
+  ],
+  "customerEmployments": [
+    {
+      "employmentStatus": "E",
+      "primaryIndustry": "906",
+      "primaryOccupation": "A01",
+      "secondaryIndustry": "224",
+      "secondaryOccupation": "A01"
+    }
+  ],
+  "customerIndividualDetail": {
+    "carsInHousehold": "1",
+    "dateOfBirth": "2000-04-15",
+    "firstName": "John",
+    "gender": "M",
+    "lastName": "Smith",
+    "maritalStatus": "M",
+    "numberOfChildren": "2",
+    "residencyStatus": "R",
+    "title": "003"
+  },
+  "customerMarketingConsent": {
+    "email": false,
+    "phone": false,
+    "post": false,
+    "sms": false
+  },
+  "customerPhones": [
+    {
+      "countryCode": "GB",
+      "phoneConfirmed": true,
+      "phoneNumber": "09876543219",
+      "phoneType": "MOBILE"
+    }
+  ],
+  "customerStatus": "QUALIFIED",
+  "customerType": "INDV"
+}

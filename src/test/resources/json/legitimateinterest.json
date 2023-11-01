@@ -1,0 +1,33 @@
+{
+  "legitimateInterestMarketingPermissions": [
+    {
+      "brand": "ES",
+      "customerMarketingPermissions": [
+        {
+          "channel": "Email",
+          "canMarket": true,
+          "source": "UNSUBSCRIBE",
+          "updated":"2022-02-02T00:16:00Z"
+        },
+        {
+          "channel": "SMS",
+          "canMarket": false,
+          "source": "QUOTE_JOURNEY",
+          "updated":"2022-02-02T00:16:00Z"
+        },
+        {
+          "channel": "Post",
+          "canMarket": true,
+          "source": "QUOTE_JOURNEY",
+          "updated":"2022-02-02T00:16:00Z"
+        },
+        {
+          "channel": "Phone",
+          "canMarket": false,
+          "source": "QUOTE_JOURNEY",
+          "updated":"2022-02-02T00:16:00Z"
+        }
+      ]
+    }
+  ]
+}

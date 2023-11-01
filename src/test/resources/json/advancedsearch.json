@@ -1,0 +1,22 @@
+{
+  "firstNameIgnoreCase": {
+    "matches": [
+      "Pleple"
+    ]
+  },
+  "lastNameIgnoreCase": {
+    "matches": [
+      "Pleple"
+    ]
+  },
+  "state": {
+    "matches": [
+      "unqualified",
+      "in_qualification",
+      "qualified",
+      "customer",
+      "archived",
+      "invalid"
+    ]
+  }
+}

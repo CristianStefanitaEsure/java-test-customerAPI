@@ -1,0 +1,29 @@
+{
+  "brands": [
+    "ES"
+  ],
+  "customerAddress": {
+    "country": "GB",
+    "contactType": "Mailing",
+    "houseName": "Bagend",
+    "postcode": "39202",
+    "postalTown": "Bigger Shire Town"
+  },
+  "customerIndividualDetail": {
+    "carsInHousehold": "1",
+    "dateOfBirth": "2000-04-15",
+    "firstName": "John",
+    "lastName": "Smith",
+    "numberOfChildren": "2",
+    "residencyStatus": "R"
+  },
+  "customerLegitimateInterestMarketingPermissions": [
+    {
+      "brand": "ES",
+      "customerMarketingPermissions": [
+      ]
+    }
+  ],
+  "customerStatus": "QUALIFIED",
+  "customerType": "INDV"
+}
