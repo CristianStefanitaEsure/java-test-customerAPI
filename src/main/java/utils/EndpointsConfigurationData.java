@@ -7,9 +7,9 @@ import static utils.EnvironmentsNew.setup;
 public class EndpointsConfigurationData {
 
     static {
-        //  setup("app06");
+        // setup("app06");
         //  setup("app07");
-           DEBUG_ONLY_overrideDefaultEnvironment("staging", "staging");
+            DEBUG_ONLY_overrideDefaultEnvironment("staging", "staging");
 
         DXP_ENV_URL = EnvironmentsNew.getCurrentEnv() != null
                 ? EnvironmentsNew.getCurrentEnv().getDxpV20BaseUrl()
@@ -27,6 +27,9 @@ public class EndpointsConfigurationData {
     public static String DXP_ENV_URL;
     public static final String DXP_ADV_SEARCH = "backoffice-customer-common/v1/customers/search-advanced";
     public static final String DXP_GET_CUSTOMER = "agent-facade/v1/customers/";
+
+    // new - changed model
+    //public static final String DXP_GET_CUSTOMER = "backoffice-customer-individual/v1/individual-customers/";
     public static final String USER = "qa";
     public static final String PASS = "qa";
 

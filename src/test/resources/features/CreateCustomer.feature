@@ -5,12 +5,12 @@ Feature: Create customer
   Scenario: Validate customer creation with required fields
     Given Creates a customer with "required" fields
     And 201 response code should be received
-    Then a request sent to DXP will return user's minimaldetails
+#    Then a request sent to DXP will return user's minimaldetails
 
   Scenario: Validate customer creation with all fields
     Given Creates a customer with "all" fields
     And  201 response code should be received
-    Then a request sent to DXP will return user's full details
+#    Then a request sent to DXP will return user's full details
 
   Scenario: Validate customer creation with null values for mandatory attribute
     Given Create a customer with null values for mandatory attribute

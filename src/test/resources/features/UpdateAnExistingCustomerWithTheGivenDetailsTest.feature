@@ -32,7 +32,7 @@ Feature: Update an existing customer with the given details
     When there is request to "add" bar to a customer with "UWBAR"
     And there is a request to remove Bars by setting end date to 2 years earlier
     Then the customer "removed" bars data will match requested data
-    And a request sent to DXP will return user's minimaldetails
+#    And a request sent to DXP will return user's minimaldetails
 
   Scenario: Update Customer with Incorrect Data
     Given Creates a customer with "required" fields

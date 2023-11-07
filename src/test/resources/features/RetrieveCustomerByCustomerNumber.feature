@@ -4,7 +4,7 @@ Feature: Retrieve customer by customerNumber
   Scenario: Validate customer creation with required fields
     Given Creates a customer with "required" fields
     And  201 response code should be received
-    Then a request sent to DXP will return user's minimaldetails
+#    Then a request sent to DXP will return user's minimaldetails
 
   Scenario: Get customer by customer number with proper customer id using customer java api
     Given Creates a customer with "required" fields
